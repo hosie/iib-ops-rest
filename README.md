@@ -11,7 +11,8 @@ This is still early days in the development of this project and is little more t
 3. open a console, add node.js to your PATH,
 4. cd to the directory where you unzipped in (2). cd to src ( the directory that contains app.js and package.json - among other things) ``` cd iib-ops-rest/src ```
 5. In any text editor, open ``` src/hosts.json``` and update it with the host and port for your Integration Node(s)
-6. start the server ``` npm start ```
+6. Instal the dependancies ``` npm install ```
+7. Start the server ``` node app.js ```
 
 This will install any necessary dependancies.
 
