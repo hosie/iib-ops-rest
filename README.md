@@ -7,7 +7,7 @@ This is still early days in the development of this project and is little more t
 ## Try it
 ### Install
 1. Download and install node.js - http://nodejs.org/download/
-2. Download - [iib-ops-js] (https://github.com/ot4i/iib-ops-rest/archive/master.zip)  and unzip
+2. Download - [iib-ops-rest] (https://github.com/ot4i/iib-ops-rest/archive/master.zip)  and unzip
 3. open a console, add node.js to your PATH,
 4. cd to the directory where you unzipped in (2). cd to src ( the directory that contains app.js and package.json - among other things) ``` cd iib-ops-rest/src ```
 5. In any text editor, open ``` src/hosts.json``` and update it with the host and port for your Integration Node(s)
