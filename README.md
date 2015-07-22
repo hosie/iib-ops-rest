@@ -22,3 +22,11 @@ You should see a message reporting that the server is listening on localhost:300
 ### sniff test
 Send an HTTP GET request ( e.g. using curl, or REST Console extension for Google Chrome  or simply by entering the following URL into your browser's address bar)...
 ``` localhost:3002/apiv1/integrationBus?depth=7 ```
+
+You should see a JSON object returned that contains information about all of your Integration Node, thier Integration Servers and any applications, services, libraries, message flows etc... deployed to them.
+
+### What next
+Get on with coding a REST client to consume the data that are returned by this API
+
+### Or...
+Take a look at iib-ops-js as a convenient way for your javascript based client to consume both this API and also the live operational data that is published from IBM Integration Bus (for example message flow accounting and statistics data).
