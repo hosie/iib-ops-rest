@@ -29,4 +29,4 @@ You should see a JSON object returned that contains information about all of you
 Get on with coding a REST client to consume the data that are returned by this API
 
 ### Or...
-Take a look at iib-ops-js as a convenient way for your javascript based client to consume both this API and also the live operational data that is published from IBM Integration Bus (for example message flow accounting and statistics data).
+Take a look at [iib-ops-js] (https://github.com/ot4i/iib-ops-js) as a convenient way for your javascript based client to consume both this API and also the live operational data that is published from IBM Integration Bus (for example message flow accounting and statistics data).
